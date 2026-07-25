@@ -1,0 +1,51 @@
+staff_id,full_name,role,department,hospital_branch,shift,contact_number,email
+STF_001,Allison Hill,Doctor,Dermatology,Central Hospital,Evening,321.581.9600,williamjohnson@example.org
+STF_002,Meredith Barnes,Nurse,Pediatrics,Westside Clinic,Night,394.802.6542x351,howardmaurice@example.com
+STF_003,Monica Herrera,Doctor,ICU,Central Hospital,Night,(518)349-5931x0341,oramirez@example.com
+STF_004,Henry Santiago,Doctor,General Ward,Eastside Clinic,Morning,001-719-228-3276x483,lydiatrujillo@example.com
+STF_005,Daniel Hahn,Doctor,Dermatology,Westside Clinic,Morning,001-653-876-7242x388,icox@example.net
+STF_006,Peter Callahan Jr.,Radiologist,General Ward,Westside Clinic,Night,(669)216-6978,maldonadoamanda@example.com
+STF_007,Gina Carter,Nurse,ICU,Central Hospital,Night,(570)448-2814,kathryn88@example.org
+STF_008,Katherine Rodriguez,Radiologist,Emergency,Westside Clinic,Evening,(443)903-9117x182,josephbrennan@example.com
+STF_009,Tanya Campos,Radiologist,Oncology,Westside Clinic,Morning,001-734-265-7871x331,briannasmith@example.net
+STF_010,Crystal Whitehead,Lab Technician,Oncology,Eastside Clinic,Morning,818-534-7382x99737,davisryan@example.com
+STF_011,Scott Brown,Nurse,Oncology,Westside Clinic,Morning,+1-410-665-1333x8726,ewright@example.com
+STF_012,Savannah Garcia,Lab Technician,Dermatology,Eastside Clinic,Evening,+1-880-213-2677x3602,ybaker@example.com
+STF_013,Michael Cross,Radiologist,Oncology,Westside Clinic,Night,+1-272-734-3098,williamsthomas@example.net
+STF_014,Tyler Miller,Lab Technician,General Ward,Westside Clinic,Evening,(219)313-6193,ksandoval@example.net
+STF_015,Dean Santiago,Doctor,General Ward,Eastside Clinic,Night,334-562-4751x07991,david51@example.org
+STF_016,Christopher Bass,Radiologist,Oncology,Central Hospital,Morning,001-449-680-8412x411,cassandra53@example.net
+STF_017,Deborah Freeman,Doctor,Dermatology,Central Hospital,Morning,4169400524,hhoffman@example.org
+STF_018,Melissa Hernandez,Medical Assistant,Dermatology,Westside Clinic,Morning,7592826204,jason31@example.com
+STF_019,Stacey Russell,Lab Technician,Oncology,Eastside Clinic,Night,+1-423-322-6025x634,ebrennan@example.org
+STF_020,Thomas Bailey,Medical Assistant,Pediatrics,Eastside Clinic,Evening,730.836.5414,sheila14@example.org
+STF_021,Victoria Johnson,Nurse,ICU,Eastside Clinic,Night,+1-265-856-9816x934,meyerlindsay@example.net
+STF_022,Natalie Lambert,Doctor,General Ward,Central Hospital,Morning,(861)659-5148x465,jamesortega@example.com
+STF_023,Stephanie Gilbert,Radiologist,ICU,Westside Clinic,Morning,968-504-4369x9577,yleon@example.net
+STF_024,Bradley Robertson,Lab Technician,Emergency,Eastside Clinic,Night,+1-395-913-4332x0037,kmercado@example.org
+STF_025,Janet Ross,Radiologist,Pediatrics,Central Hospital,Evening,(501)363-2870,danderson@example.net
+STF_026,Kristin Stewart,Doctor,Pediatrics,Westside Clinic,Evening,001-979-586-8727x74348,scott43@example.com
+STF_027,Steven Miller,Lab Technician,Oncology,Westside Clinic,Morning,(936)823-1665,clarkrobert@example.net
+STF_028,Alicia Gilmore,Radiologist,ICU,Eastside Clinic,Morning,001-567-905-4668,joshuatucker@example.com
+STF_029,Michael Powell,Lab Technician,Emergency,Central Hospital,Evening,(272)398-0699,dtaylor@example.org
+STF_030,James Lewis,Nurse,Oncology,Westside Clinic,Morning,256-246-4170x80531,jamessmith@example.org
+STF_031,John Wilson,Radiologist,General Ward,Eastside Clinic,Night,674.352.9912,hickmanbarbara@example.com
+STF_032,Miguel Jones,Radiologist,Emergency,Central Hospital,Evening,001-331-749-1905x865,atkinsonlynn@example.org
+STF_033,Jack Snow,Medical Assistant,Pediatrics,Westside Clinic,Night,626.728.4987x769,mariahmiller@example.com
+STF_034,John Bishop,Lab Technician,Dermatology,Westside Clinic,Morning,(650)275-2735x4549,christophercortez@example.com
+STF_035,Cynthia Alvarez,Nurse,ICU,Westside Clinic,Night,001-977-701-4363x495,jbarajas@example.com
+STF_036,Jesse Parker,Lab Technician,General Ward,Westside Clinic,Evening,913.651.8233,tina34@example.org
+STF_037,Eric Erickson,Lab Technician,General Ward,Eastside Clinic,Night,(240)608-4271,vmendoza@example.org
+STF_038,Dawn Hensley,Medical Assistant,General Ward,Westside Clinic,Night,616-371-9022,davidduran@example.net
+STF_039,Lisa Rowe,Doctor,ICU,Central Hospital,Evening,(577)649-6499x0913,mooreglenn@example.org
+STF_040,Jason Norris,Medical Assistant,Dermatology,Eastside Clinic,Evening,340.534.4713x4936,rebekahserrano@example.org
+STF_041,Ricky Larson,Nurse,Emergency,Westside Clinic,Night,001-947-917-4648,georgepamela@example.net
+STF_042,David Davis,Medical Assistant,General Ward,Westside Clinic,Night,+1-899-904-9027x87429,harrisonricky@example.com
+STF_043,Shannon Rivera,Doctor,ICU,Eastside Clinic,Night,001-874-268-0715x451,mgutierrez@example.net
+STF_044,Peter Garrett,Radiologist,General Ward,Westside Clinic,Morning,001-603-248-2477x10932,hdavis@example.com
+STF_045,Maria Moore,Medical Assistant,Pediatrics,Central Hospital,Night,001-548-446-7737x826,hillkristy@example.com
+STF_046,Richard Adams,Doctor,General Ward,Eastside Clinic,Evening,9447997278,andrea86@example.com
+STF_047,Sheila Pollard,Doctor,Dermatology,Eastside Clinic,Evening,896.436.0576,ihanna@example.net
+STF_048,Evelyn Garcia,Nurse,Dermatology,Westside Clinic,Night,818.370.2621x745,melissa86@example.com
+STF_049,Stacy Freeman,Doctor,Dermatology,Central Hospital,Evening,+1-309-313-4316,tjackson@example.org
+STF_050,Robert Carter,Doctor,General Ward,Westside Clinic,Morning,(862)538-6922x219,jdurham@example.org
