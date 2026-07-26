@@ -65,8 +65,11 @@ def generate_kpi_summary(integrated_df: pd.DataFrame, staff_df: pd.DataFrame, be
         "admission_type_breakdown_pct": admission_type_breakdown(integrated_df),
         "staff_to_admission_ratio_by_department": staff_to_patient_ratio(staff_df, integrated_df),
         "against_medical_advice_rate_pct": discharge_outcome_risk_rate(integrated_df),
+        "total_patients": total_patients(integrated_df),
     }
 
+def total_patients(integrated_df):
+    return len(integrated_df)
 
 if __name__ == "__main__":
     from preprocessing import run_pipeline
@@ -75,6 +78,7 @@ if __name__ == "__main__":
     summary = generate_kpi_summary(integrated_df, staff_df, beds_df)
 
     print("\n--- KPI SUMMARY ---")
+    print(f"Total Patients: {summary['total_patients']}")
     print(f"Average Length of Stay: {summary['average_length_of_stay_days']} days")
     print(f"Against Medical Advice Rate: {summary['against_medical_advice_rate_pct']}%")
     print("\nBed Occupancy Rate by Department:")
