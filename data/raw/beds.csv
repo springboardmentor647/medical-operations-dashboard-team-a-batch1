@@ -1,0 +1,321 @@
+bed_id,hospital_branch,department,bed_type,status,floor
+BED_001,Westside Clinic,Emergency,Standard,Occupied,Floor 3
+BED_002,Westside Clinic,Emergency,ICU Bed,Occupied,Floor 2
+BED_003,Westside Clinic,Emergency,Standard,Maintenance,Floor 1
+BED_004,Westside Clinic,Emergency,Semi-Private,Occupied,Floor 1
+BED_005,Westside Clinic,Emergency,Standard,Occupied,Floor 2
+BED_006,Westside Clinic,Emergency,Standard,Maintenance,Floor 2
+BED_007,Westside Clinic,Emergency,Semi-Private,Occupied,Floor 4
+BED_008,Westside Clinic,Emergency,Ventilator Bed,Occupied,Floor 2
+BED_009,Westside Clinic,Emergency,Semi-Private,Available,Floor 3
+BED_010,Westside Clinic,Emergency,ICU Bed,Occupied,Floor 3
+BED_011,Westside Clinic,Emergency,Standard,Occupied,Floor 4
+BED_012,Westside Clinic,Emergency,Standard,Available,Floor 3
+BED_013,Westside Clinic,Emergency,Ventilator Bed,Occupied,Floor 4
+BED_014,Westside Clinic,Emergency,Standard,Available,Floor 1
+BED_015,Westside Clinic,Emergency,Ventilator Bed,Maintenance,Floor 3
+BED_016,Westside Clinic,Emergency,ICU Bed,Maintenance,Floor 1
+BED_017,Westside Clinic,Emergency,Standard,Maintenance,Floor 2
+BED_018,Westside Clinic,Emergency,Ventilator Bed,Occupied,Floor 2
+BED_019,Westside Clinic,Emergency,Standard,Available,Floor 3
+BED_020,Westside Clinic,Emergency,Semi-Private,Maintenance,Floor 3
+BED_021,Westside Clinic,Emergency,ICU Bed,Available,Floor 3
+BED_022,Westside Clinic,Emergency,ICU Bed,Maintenance,Floor 3
+BED_023,Westside Clinic,Emergency,Standard,Maintenance,Floor 2
+BED_024,Westside Clinic,Emergency,ICU Bed,Occupied,Floor 4
+BED_025,Westside Clinic,Emergency,Semi-Private,Available,Floor 2
+BED_026,Westside Clinic,ICU,ICU Bed,Available,Floor 1
+BED_027,Westside Clinic,ICU,ICU Bed,Occupied,Floor 1
+BED_028,Westside Clinic,ICU,ICU Bed,Available,Floor 4
+BED_029,Westside Clinic,ICU,ICU Bed,Available,Floor 1
+BED_030,Westside Clinic,ICU,ICU Bed,Occupied,Floor 3
+BED_031,Westside Clinic,ICU,ICU Bed,Occupied,Floor 4
+BED_032,Westside Clinic,ICU,ICU Bed,Available,Floor 4
+BED_033,Westside Clinic,ICU,ICU Bed,Occupied,Floor 3
+BED_034,Westside Clinic,ICU,ICU Bed,Occupied,Floor 2
+BED_035,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_036,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 4
+BED_037,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 4
+BED_038,Westside Clinic,ICU,ICU Bed,Available,Floor 2
+BED_039,Westside Clinic,ICU,ICU Bed,Occupied,Floor 4
+BED_040,Westside Clinic,ICU,ICU Bed,Occupied,Floor 1
+BED_041,Westside Clinic,ICU,ICU Bed,Occupied,Floor 2
+BED_042,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 2
+BED_043,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 4
+BED_044,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 1
+BED_045,Westside Clinic,ICU,ICU Bed,Available,Floor 4
+BED_046,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 4
+BED_047,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_048,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 1
+BED_049,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 1
+BED_050,Westside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_051,Westside Clinic,General Ward,Ventilator Bed,Occupied,Floor 3
+BED_052,Westside Clinic,General Ward,Semi-Private,Occupied,Floor 4
+BED_053,Westside Clinic,General Ward,Standard,Maintenance,Floor 3
+BED_054,Westside Clinic,General Ward,ICU Bed,Maintenance,Floor 1
+BED_055,Westside Clinic,General Ward,Ventilator Bed,Maintenance,Floor 2
+BED_056,Westside Clinic,General Ward,ICU Bed,Available,Floor 2
+BED_057,Westside Clinic,General Ward,Standard,Maintenance,Floor 3
+BED_058,Westside Clinic,General Ward,Semi-Private,Occupied,Floor 1
+BED_059,Westside Clinic,General Ward,Ventilator Bed,Available,Floor 2
+BED_060,Westside Clinic,General Ward,Standard,Occupied,Floor 1
+BED_061,Westside Clinic,General Ward,Standard,Maintenance,Floor 4
+BED_062,Westside Clinic,General Ward,Standard,Maintenance,Floor 2
+BED_063,Westside Clinic,General Ward,ICU Bed,Maintenance,Floor 4
+BED_064,Westside Clinic,General Ward,ICU Bed,Available,Floor 4
+BED_065,Westside Clinic,General Ward,ICU Bed,Maintenance,Floor 2
+BED_066,Westside Clinic,General Ward,Ventilator Bed,Available,Floor 3
+BED_067,Westside Clinic,General Ward,Semi-Private,Maintenance,Floor 4
+BED_068,Westside Clinic,General Ward,Standard,Occupied,Floor 2
+BED_069,Westside Clinic,General Ward,Standard,Available,Floor 1
+BED_070,Westside Clinic,General Ward,ICU Bed,Maintenance,Floor 2
+BED_071,Westside Clinic,General Ward,Standard,Occupied,Floor 1
+BED_072,Westside Clinic,General Ward,ICU Bed,Occupied,Floor 1
+BED_073,Westside Clinic,General Ward,Ventilator Bed,Occupied,Floor 2
+BED_074,Westside Clinic,General Ward,Ventilator Bed,Maintenance,Floor 4
+BED_075,Westside Clinic,General Ward,ICU Bed,Maintenance,Floor 2
+BED_076,Westside Clinic,Pediatrics,Semi-Private,Occupied,Floor 4
+BED_077,Westside Clinic,Pediatrics,Semi-Private,Occupied,Floor 1
+BED_078,Westside Clinic,Pediatrics,Standard,Maintenance,Floor 4
+BED_079,Westside Clinic,Pediatrics,Ventilator Bed,Available,Floor 4
+BED_080,Westside Clinic,Pediatrics,Semi-Private,Maintenance,Floor 1
+BED_081,Westside Clinic,Pediatrics,Standard,Occupied,Floor 4
+BED_082,Westside Clinic,Pediatrics,Ventilator Bed,Occupied,Floor 2
+BED_083,Westside Clinic,Pediatrics,ICU Bed,Occupied,Floor 4
+BED_084,Westside Clinic,Pediatrics,ICU Bed,Available,Floor 2
+BED_085,Westside Clinic,Pediatrics,Ventilator Bed,Available,Floor 2
+BED_086,Westside Clinic,Pediatrics,Standard,Available,Floor 1
+BED_087,Westside Clinic,Pediatrics,Standard,Maintenance,Floor 1
+BED_088,Westside Clinic,Pediatrics,Standard,Occupied,Floor 2
+BED_089,Westside Clinic,Pediatrics,Semi-Private,Available,Floor 4
+BED_090,Westside Clinic,Pediatrics,ICU Bed,Available,Floor 1
+BED_091,Westside Clinic,Pediatrics,ICU Bed,Available,Floor 1
+BED_092,Westside Clinic,Pediatrics,Semi-Private,Available,Floor 4
+BED_093,Westside Clinic,Pediatrics,Ventilator Bed,Available,Floor 4
+BED_094,Westside Clinic,Pediatrics,ICU Bed,Occupied,Floor 3
+BED_095,Westside Clinic,Pediatrics,ICU Bed,Occupied,Floor 1
+BED_096,Westside Clinic,Pediatrics,Ventilator Bed,Occupied,Floor 1
+BED_097,Westside Clinic,Pediatrics,Semi-Private,Maintenance,Floor 2
+BED_098,Westside Clinic,Pediatrics,Standard,Maintenance,Floor 1
+BED_099,Westside Clinic,Pediatrics,ICU Bed,Occupied,Floor 1
+BED_100,Westside Clinic,Oncology,ICU Bed,Available,Floor 1
+BED_101,Westside Clinic,Oncology,ICU Bed,Maintenance,Floor 1
+BED_102,Westside Clinic,Oncology,Standard,Available,Floor 3
+BED_103,Westside Clinic,Oncology,Ventilator Bed,Occupied,Floor 3
+BED_104,Westside Clinic,Oncology,ICU Bed,Available,Floor 4
+BED_105,Westside Clinic,Oncology,ICU Bed,Maintenance,Floor 3
+BED_106,Westside Clinic,Oncology,Semi-Private,Available,Floor 1
+BED_107,Westside Clinic,Oncology,Standard,Available,Floor 1
+BED_108,Westside Clinic,Oncology,Standard,Maintenance,Floor 2
+BED_109,Westside Clinic,Oncology,Ventilator Bed,Occupied,Floor 3
+BED_110,Westside Clinic,Oncology,Standard,Occupied,Floor 3
+BED_111,Westside Clinic,Oncology,Ventilator Bed,Occupied,Floor 4
+BED_112,Westside Clinic,Oncology,Ventilator Bed,Maintenance,Floor 1
+BED_113,Westside Clinic,Oncology,Ventilator Bed,Maintenance,Floor 1
+BED_114,Westside Clinic,Oncology,ICU Bed,Available,Floor 1
+BED_115,Westside Clinic,Oncology,Standard,Maintenance,Floor 2
+BED_116,Westside Clinic,Oncology,Ventilator Bed,Available,Floor 2
+BED_117,Westside Clinic,Oncology,Ventilator Bed,Occupied,Floor 3
+BED_118,Westside Clinic,Oncology,Semi-Private,Available,Floor 1
+BED_119,Westside Clinic,Oncology,Standard,Maintenance,Floor 4
+BED_120,Westside Clinic,Oncology,Ventilator Bed,Occupied,Floor 1
+BED_121,Westside Clinic,Oncology,Ventilator Bed,Occupied,Floor 3
+BED_122,Westside Clinic,Oncology,ICU Bed,Maintenance,Floor 4
+BED_123,Westside Clinic,Oncology,Semi-Private,Maintenance,Floor 1
+BED_124,Westside Clinic,Oncology,Standard,Occupied,Floor 2
+BED_125,Eastside Clinic,Emergency,Standard,Available,Floor 2
+BED_126,Eastside Clinic,Emergency,Semi-Private,Occupied,Floor 1
+BED_127,Eastside Clinic,Emergency,Ventilator Bed,Available,Floor 1
+BED_128,Eastside Clinic,Emergency,Ventilator Bed,Occupied,Floor 2
+BED_129,Eastside Clinic,Emergency,Standard,Available,Floor 4
+BED_130,Eastside Clinic,Emergency,ICU Bed,Occupied,Floor 2
+BED_131,Eastside Clinic,Emergency,ICU Bed,Available,Floor 1
+BED_132,Eastside Clinic,Emergency,ICU Bed,Maintenance,Floor 3
+BED_133,Eastside Clinic,Emergency,Semi-Private,Maintenance,Floor 2
+BED_134,Eastside Clinic,Emergency,Ventilator Bed,Occupied,Floor 1
+BED_135,Eastside Clinic,Emergency,Semi-Private,Occupied,Floor 4
+BED_136,Eastside Clinic,Emergency,ICU Bed,Occupied,Floor 4
+BED_137,Eastside Clinic,Emergency,Ventilator Bed,Available,Floor 2
+BED_138,Eastside Clinic,Emergency,ICU Bed,Occupied,Floor 2
+BED_139,Eastside Clinic,Emergency,Semi-Private,Available,Floor 3
+BED_140,Eastside Clinic,Emergency,Standard,Available,Floor 3
+BED_141,Eastside Clinic,Emergency,Semi-Private,Maintenance,Floor 3
+BED_142,Eastside Clinic,Emergency,Standard,Occupied,Floor 3
+BED_143,Eastside Clinic,Emergency,ICU Bed,Maintenance,Floor 3
+BED_144,Eastside Clinic,Emergency,Standard,Occupied,Floor 4
+BED_145,Eastside Clinic,Emergency,Ventilator Bed,Maintenance,Floor 3
+BED_146,Eastside Clinic,Emergency,Semi-Private,Maintenance,Floor 1
+BED_147,Eastside Clinic,Emergency,Semi-Private,Maintenance,Floor 2
+BED_148,Eastside Clinic,ICU,ICU Bed,Occupied,Floor 4
+BED_149,Eastside Clinic,ICU,ICU Bed,Occupied,Floor 2
+BED_150,Eastside Clinic,ICU,ICU Bed,Available,Floor 4
+BED_151,Eastside Clinic,ICU,ICU Bed,Occupied,Floor 3
+BED_152,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_153,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 1
+BED_154,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_155,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_156,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 4
+BED_157,Eastside Clinic,ICU,ICU Bed,Available,Floor 4
+BED_158,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_159,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 2
+BED_160,Eastside Clinic,ICU,ICU Bed,Occupied,Floor 4
+BED_161,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 4
+BED_162,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 2
+BED_163,Eastside Clinic,ICU,ICU Bed,Maintenance,Floor 3
+BED_164,Eastside Clinic,ICU,ICU Bed,Available,Floor 1
+BED_165,Eastside Clinic,ICU,ICU Bed,Available,Floor 3
+BED_166,Eastside Clinic,ICU,ICU Bed,Occupied,Floor 4
+BED_167,Eastside Clinic,General Ward,Ventilator Bed,Available,Floor 4
+BED_168,Eastside Clinic,General Ward,Semi-Private,Maintenance,Floor 2
+BED_169,Eastside Clinic,General Ward,Semi-Private,Maintenance,Floor 2
+BED_170,Eastside Clinic,General Ward,Standard,Available,Floor 3
+BED_171,Eastside Clinic,General Ward,Standard,Occupied,Floor 3
+BED_172,Eastside Clinic,General Ward,ICU Bed,Occupied,Floor 2
+BED_173,Eastside Clinic,General Ward,Standard,Occupied,Floor 2
+BED_174,Eastside Clinic,General Ward,Semi-Private,Maintenance,Floor 1
+BED_175,Eastside Clinic,General Ward,Semi-Private,Available,Floor 2
+BED_176,Eastside Clinic,General Ward,Semi-Private,Available,Floor 4
+BED_177,Eastside Clinic,General Ward,ICU Bed,Occupied,Floor 1
+BED_178,Eastside Clinic,General Ward,Standard,Available,Floor 2
+BED_179,Eastside Clinic,General Ward,ICU Bed,Maintenance,Floor 4
+BED_180,Eastside Clinic,General Ward,Standard,Maintenance,Floor 2
+BED_181,Eastside Clinic,General Ward,Standard,Available,Floor 2
+BED_182,Eastside Clinic,General Ward,Semi-Private,Maintenance,Floor 3
+BED_183,Eastside Clinic,General Ward,Semi-Private,Maintenance,Floor 4
+BED_184,Eastside Clinic,General Ward,Semi-Private,Occupied,Floor 4
+BED_185,Eastside Clinic,General Ward,Semi-Private,Available,Floor 2
+BED_186,Eastside Clinic,General Ward,Ventilator Bed,Maintenance,Floor 4
+BED_187,Eastside Clinic,General Ward,ICU Bed,Available,Floor 4
+BED_188,Eastside Clinic,General Ward,Standard,Maintenance,Floor 3
+BED_189,Eastside Clinic,General Ward,ICU Bed,Available,Floor 3
+BED_190,Eastside Clinic,General Ward,Ventilator Bed,Maintenance,Floor 1
+BED_191,Eastside Clinic,Pediatrics,ICU Bed,Occupied,Floor 4
+BED_192,Eastside Clinic,Pediatrics,ICU Bed,Maintenance,Floor 2
+BED_193,Eastside Clinic,Pediatrics,Standard,Available,Floor 4
+BED_194,Eastside Clinic,Pediatrics,Ventilator Bed,Maintenance,Floor 4
+BED_195,Eastside Clinic,Pediatrics,Semi-Private,Occupied,Floor 2
+BED_196,Eastside Clinic,Pediatrics,Semi-Private,Available,Floor 1
+BED_197,Eastside Clinic,Pediatrics,Semi-Private,Available,Floor 1
+BED_198,Eastside Clinic,Pediatrics,Ventilator Bed,Available,Floor 4
+BED_199,Eastside Clinic,Pediatrics,Semi-Private,Maintenance,Floor 2
+BED_200,Eastside Clinic,Pediatrics,Semi-Private,Occupied,Floor 3
+BED_201,Eastside Clinic,Pediatrics,Semi-Private,Available,Floor 1
+BED_202,Eastside Clinic,Pediatrics,Semi-Private,Available,Floor 4
+BED_203,Eastside Clinic,Pediatrics,ICU Bed,Available,Floor 2
+BED_204,Eastside Clinic,Pediatrics,Standard,Available,Floor 1
+BED_205,Eastside Clinic,Pediatrics,Standard,Maintenance,Floor 4
+BED_206,Eastside Clinic,Pediatrics,ICU Bed,Available,Floor 2
+BED_207,Eastside Clinic,Pediatrics,Standard,Available,Floor 4
+BED_208,Eastside Clinic,Oncology,ICU Bed,Available,Floor 3
+BED_209,Eastside Clinic,Oncology,Ventilator Bed,Available,Floor 3
+BED_210,Eastside Clinic,Oncology,Semi-Private,Available,Floor 1
+BED_211,Eastside Clinic,Oncology,Semi-Private,Occupied,Floor 1
+BED_212,Eastside Clinic,Oncology,Ventilator Bed,Occupied,Floor 1
+BED_213,Eastside Clinic,Oncology,Standard,Occupied,Floor 2
+BED_214,Eastside Clinic,Oncology,ICU Bed,Occupied,Floor 2
+BED_215,Eastside Clinic,Oncology,ICU Bed,Occupied,Floor 4
+BED_216,Eastside Clinic,Oncology,Standard,Maintenance,Floor 2
+BED_217,Eastside Clinic,Oncology,Semi-Private,Maintenance,Floor 3
+BED_218,Eastside Clinic,Oncology,Ventilator Bed,Occupied,Floor 1
+BED_219,Eastside Clinic,Oncology,ICU Bed,Available,Floor 1
+BED_220,Eastside Clinic,Oncology,Standard,Available,Floor 4
+BED_221,Eastside Clinic,Oncology,Semi-Private,Maintenance,Floor 2
+BED_222,Eastside Clinic,Oncology,Standard,Maintenance,Floor 2
+BED_223,Eastside Clinic,Oncology,Standard,Maintenance,Floor 3
+BED_224,Eastside Clinic,Oncology,Standard,Maintenance,Floor 1
+BED_225,Eastside Clinic,Oncology,Ventilator Bed,Maintenance,Floor 4
+BED_226,Eastside Clinic,Oncology,Ventilator Bed,Occupied,Floor 3
+BED_227,Eastside Clinic,Oncology,Standard,Available,Floor 4
+BED_228,Central Hospital,Emergency,Semi-Private,Available,Floor 4
+BED_229,Central Hospital,Emergency,ICU Bed,Available,Floor 2
+BED_230,Central Hospital,Emergency,Ventilator Bed,Maintenance,Floor 4
+BED_231,Central Hospital,Emergency,Semi-Private,Available,Floor 3
+BED_232,Central Hospital,Emergency,Ventilator Bed,Occupied,Floor 1
+BED_233,Central Hospital,Emergency,Ventilator Bed,Available,Floor 2
+BED_234,Central Hospital,Emergency,Semi-Private,Maintenance,Floor 4
+BED_235,Central Hospital,Emergency,Ventilator Bed,Occupied,Floor 4
+BED_236,Central Hospital,Emergency,Ventilator Bed,Occupied,Floor 4
+BED_237,Central Hospital,Emergency,ICU Bed,Available,Floor 3
+BED_238,Central Hospital,Emergency,Ventilator Bed,Available,Floor 3
+BED_239,Central Hospital,Emergency,Standard,Maintenance,Floor 2
+BED_240,Central Hospital,Emergency,Standard,Occupied,Floor 4
+BED_241,Central Hospital,Emergency,Semi-Private,Maintenance,Floor 2
+BED_242,Central Hospital,Emergency,Semi-Private,Maintenance,Floor 4
+BED_243,Central Hospital,Emergency,Semi-Private,Occupied,Floor 1
+BED_244,Central Hospital,ICU,ICU Bed,Occupied,Floor 4
+BED_245,Central Hospital,ICU,ICU Bed,Maintenance,Floor 2
+BED_246,Central Hospital,ICU,ICU Bed,Available,Floor 3
+BED_247,Central Hospital,ICU,ICU Bed,Available,Floor 3
+BED_248,Central Hospital,ICU,ICU Bed,Available,Floor 3
+BED_249,Central Hospital,ICU,ICU Bed,Available,Floor 4
+BED_250,Central Hospital,ICU,ICU Bed,Available,Floor 3
+BED_251,Central Hospital,ICU,ICU Bed,Available,Floor 2
+BED_252,Central Hospital,ICU,ICU Bed,Occupied,Floor 2
+BED_253,Central Hospital,ICU,ICU Bed,Available,Floor 1
+BED_254,Central Hospital,ICU,ICU Bed,Maintenance,Floor 2
+BED_255,Central Hospital,ICU,ICU Bed,Occupied,Floor 2
+BED_256,Central Hospital,ICU,ICU Bed,Maintenance,Floor 4
+BED_257,Central Hospital,ICU,ICU Bed,Available,Floor 3
+BED_258,Central Hospital,ICU,ICU Bed,Occupied,Floor 2
+BED_259,Central Hospital,ICU,ICU Bed,Available,Floor 2
+BED_260,Central Hospital,ICU,ICU Bed,Available,Floor 2
+BED_261,Central Hospital,ICU,ICU Bed,Available,Floor 1
+BED_262,Central Hospital,ICU,ICU Bed,Maintenance,Floor 2
+BED_263,Central Hospital,General Ward,Standard,Occupied,Floor 3
+BED_264,Central Hospital,General Ward,ICU Bed,Maintenance,Floor 4
+BED_265,Central Hospital,General Ward,Standard,Occupied,Floor 3
+BED_266,Central Hospital,General Ward,Semi-Private,Available,Floor 4
+BED_267,Central Hospital,General Ward,Ventilator Bed,Occupied,Floor 1
+BED_268,Central Hospital,General Ward,Ventilator Bed,Available,Floor 1
+BED_269,Central Hospital,General Ward,Standard,Available,Floor 4
+BED_270,Central Hospital,General Ward,Standard,Maintenance,Floor 1
+BED_271,Central Hospital,General Ward,ICU Bed,Occupied,Floor 3
+BED_272,Central Hospital,General Ward,Standard,Occupied,Floor 1
+BED_273,Central Hospital,General Ward,Semi-Private,Maintenance,Floor 2
+BED_274,Central Hospital,General Ward,Semi-Private,Available,Floor 4
+BED_275,Central Hospital,General Ward,Ventilator Bed,Maintenance,Floor 4
+BED_276,Central Hospital,General Ward,Ventilator Bed,Maintenance,Floor 1
+BED_277,Central Hospital,General Ward,Standard,Occupied,Floor 2
+BED_278,Central Hospital,General Ward,Ventilator Bed,Maintenance,Floor 1
+BED_279,Central Hospital,General Ward,ICU Bed,Occupied,Floor 2
+BED_280,Central Hospital,General Ward,Standard,Occupied,Floor 1
+BED_281,Central Hospital,General Ward,Semi-Private,Available,Floor 4
+BED_282,Central Hospital,Pediatrics,Standard,Occupied,Floor 3
+BED_283,Central Hospital,Pediatrics,Ventilator Bed,Maintenance,Floor 4
+BED_284,Central Hospital,Pediatrics,Standard,Maintenance,Floor 2
+BED_285,Central Hospital,Pediatrics,Ventilator Bed,Maintenance,Floor 2
+BED_286,Central Hospital,Pediatrics,Semi-Private,Occupied,Floor 2
+BED_287,Central Hospital,Pediatrics,ICU Bed,Available,Floor 2
+BED_288,Central Hospital,Pediatrics,Standard,Occupied,Floor 2
+BED_289,Central Hospital,Pediatrics,Ventilator Bed,Maintenance,Floor 3
+BED_290,Central Hospital,Pediatrics,Semi-Private,Occupied,Floor 4
+BED_291,Central Hospital,Pediatrics,Ventilator Bed,Maintenance,Floor 4
+BED_292,Central Hospital,Pediatrics,Ventilator Bed,Maintenance,Floor 4
+BED_293,Central Hospital,Pediatrics,Semi-Private,Occupied,Floor 1
+BED_294,Central Hospital,Pediatrics,Semi-Private,Maintenance,Floor 3
+BED_295,Central Hospital,Pediatrics,Ventilator Bed,Occupied,Floor 1
+BED_296,Central Hospital,Pediatrics,ICU Bed,Maintenance,Floor 1
+BED_297,Central Hospital,Pediatrics,Ventilator Bed,Maintenance,Floor 1
+BED_298,Central Hospital,Pediatrics,ICU Bed,Available,Floor 4
+BED_299,Central Hospital,Pediatrics,Ventilator Bed,Occupied,Floor 4
+BED_300,Central Hospital,Pediatrics,Semi-Private,Occupied,Floor 4
+BED_301,Central Hospital,Oncology,Semi-Private,Available,Floor 3
+BED_302,Central Hospital,Oncology,Standard,Occupied,Floor 3
+BED_303,Central Hospital,Oncology,Semi-Private,Maintenance,Floor 4
+BED_304,Central Hospital,Oncology,Ventilator Bed,Maintenance,Floor 4
+BED_305,Central Hospital,Oncology,Standard,Available,Floor 1
+BED_306,Central Hospital,Oncology,Ventilator Bed,Available,Floor 3
+BED_307,Central Hospital,Oncology,Standard,Available,Floor 1
+BED_308,Central Hospital,Oncology,Semi-Private,Available,Floor 1
+BED_309,Central Hospital,Oncology,ICU Bed,Maintenance,Floor 3
+BED_310,Central Hospital,Oncology,Semi-Private,Maintenance,Floor 4
+BED_311,Central Hospital,Oncology,Standard,Occupied,Floor 3
+BED_312,Central Hospital,Oncology,ICU Bed,Available,Floor 4
+BED_313,Central Hospital,Oncology,Semi-Private,Occupied,Floor 1
+BED_314,Central Hospital,Oncology,ICU Bed,Maintenance,Floor 2
+BED_315,Central Hospital,Oncology,Ventilator Bed,Maintenance,Floor 1
+BED_316,Central Hospital,Oncology,Semi-Private,Occupied,Floor 2
+BED_317,Central Hospital,Oncology,Standard,Available,Floor 1
+BED_318,Central Hospital,Oncology,ICU Bed,Available,Floor 3
+BED_319,Central Hospital,Oncology,Ventilator Bed,Available,Floor 4
+BED_320,Central Hospital,Oncology,Semi-Private,Occupied,Floor 4
