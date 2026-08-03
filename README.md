@@ -20,7 +20,7 @@ The **Medical Operations Dashboard** is a healthcare analytics project developed
 - GitHub
 
  📂 Project Structure
-medical-operations-dashboard-team-a-batch1
+medical-operations-dashboard-team-a-batch2
 │
 ├── data/
 │   └── raw/
