@@ -61,7 +61,6 @@ medical-operations-dashboard-team-a-batch2
 | Abhi | Trend Analysis |
 
  👥 Team
-**Medical Operations Dashboard – Team A Batch 1**
  Milestone 1 Completed
 - Data Collection
 - Data Preprocessing
@@ -70,21 +69,21 @@ medical-operations-dashboard-team-a-batch2
 - Trend Analysis
 - GitHub Collaboration
 - Documentation
-## 🚀 Future Work
+  🚀 Future Work
 - Develop an interactive Power BI Dashboard.
 - Create advanced healthcare visualizations.
 - Enhance KPI reporting.
 - Improve operational insights.
  📜 License
 This project was developed for educational purposes as part of the Infosys Springboard Internship.
+   
+ ** ---- Milestone 2 – Patient Flow & Service Demand Intelligence -----**
 
- Milestone 2 – Patient Flow & Service Demand Intelligence
-
-1. Project Overview
+ 📌1. Project Overview
 Milestone 2 focuses on transforming the cleaned healthcare datasets prepared during Milestone 1 into meaningful operational insights.
 The team performs Exploratory Data Analysis (EDA), KPI generation, trend analysis, visualization, and dashboard development to support healthcare operational decision-making.
 
- 2. Milestone 2 Objective
+🔍 2. Milestone 2 Objective
 The main objective of Milestone 2 is to analyze patient flow and healthcare service demand and convert the results into interactive dashboard insights.
  Objectives
 - Analyze admission and discharge patterns.
@@ -95,7 +94,7 @@ The main objective of Milestone 2 is to analyze patient flow and healthcare serv
 - Generate KPIs and trends.
 - Develop visualizations for dashboard integration.
   
- 3. Business Questions
+🤖3. Business Questions
  Milestone 2 is organized around six core business questions:
 1. Admission Trends
 2. Department-wise Patient Load
@@ -105,19 +104,20 @@ The main objective of Milestone 2 is to analyze patient flow and healthcare serv
 6. Surgery Workload
 Each business question is handled by one Type A and one Type B team member.
 
- 4. Task Division
+🗒️4. Task Division
 | Business Question | Type A – Analysis | Type B – Visualization |
 |---|---|---|
-| Admission Trends | Member 1 | Member 2 |
-| Department-wise Patient Load | Member 3 | Member 4 |
-| Patient Discharge & Flow | Member 5 | Member 6 |
-| Treatment & Service Demand | Member 7 | Member 8 |
-| Bottlenecks & Capacity Strain | Member 9 | Member 10 |
-| Surgery Workload | Member 11 | Member 12 |
-| Dashboard Integration & Documentation | — | Member 13 |
+| Admission Trends | Divya | Nafisa |
+| Department-wise Patient Load | Srivalli | Tanvi |
+| Patient Discharge & Flow | Sowmitha | Keerthi  |
+| Treatment & Service Demand | Abhinay | Sarthak |
+| Bottlenecks & Capacity Strain | Sarthak | Sarthak |
+| Surgery Workload | Deepika | Aarthi |
+| Dashboard Integration |  Nafisa  |
+| Documentation | Sowmitha |
 Type A members perform EDA and KPI analysis, while Type B members convert the findings into visualizations and dashboard components.
 
-5. Datasets Used
+📂5. Datasets Used
  Admission Trends
 - admissions_clean.csv
 
@@ -140,7 +140,7 @@ Bottlenecks & Capacity Strain
  Surgery Workload
 - surgeries_clean_fixed.csv
   
- 6. Analysis Methodology
+📜 6. Analysis Methodology
 The Milestone 2 workflow follows:
 Data Loading
 → Data Validation
@@ -152,7 +152,7 @@ Data Loading
 → Dashboard Integration
 Python and Pandas are used for data analysis and KPI generation.
 
- 7. Patient Discharge & Flow Analysis
+ ⬇️ 7. Patient Discharge & Flow Analysis
 For the Patient Discharge & Flow business question, the analysis uses:
 - Discharge_Date
 - Status
@@ -160,7 +160,7 @@ For the Patient Discharge & Flow business question, the analysis uses:
 The analysis focuses on the admission-to-discharge timeline and patient status transitions.
 Since no movement or transfer log is available, ward-to-ward patient movement is not analyzed.
 
-KPIs Generated
+📊 KPIs Generated
 - Total Patients
 - Average Length of Stay
 - Discharge Rate
@@ -171,7 +171,7 @@ KPIs Generated
 - Department-wise Discharges
 - Department-wise Discharge Rate
 
- Key Results
+ 🔑Key Results
 - Total Patients: 5,000
 - Average Length of Stay: 5.52 days
 - Discharge Rate: 24.28%
@@ -184,7 +184,7 @@ KPIs Generated
 - Highest Department Admissions: D015 – 335
 - Highest Department Discharge Rate: D004 – 30.32%
 
- 8. Visualization
+ 📈 8. Visualization
 The Type B members use the KPI outputs and findings from Type A analysis to create dashboard visualizations.
 Planned visualizations include:
 - Admission trend charts
@@ -196,7 +196,7 @@ Planned visualizations include:
 - Bottleneck and capacity indicators
 - Surgery workload visualizations
 
- 9. Tools & Technologies
+ ⚙️9. Tools & Technologies
 - Python
 - Pandas
 - NumPy
@@ -206,7 +206,7 @@ Planned visualizations include:
 - Git
 - GitHub
 
- 10. GitHub Workflow
+ 🔄️10. GitHub Workflow
 The team uses GitHub for collaborative development and documentation.
 Workflow:
 Clone Repository
@@ -218,7 +218,7 @@ Clone Repository
 → Dashboard Assembly
 Work is pushed regularly so that dashboard integration can happen smoothly.
 
-11. Challenges & Solutions
+⚠️11. Challenges & Solutions
  Challenge 1: Different Business Questions
 The team had multiple analytical requirements.
 **Solution:** Tasks were divided into six business questions with dedicated Type A and Type B members.
@@ -232,7 +232,7 @@ Some business questions required more than one dataset.
 Different members produced separate analytical outputs.
 **Solution:** Type A members provide KPI numbers and findings to Type B members for visualization and dashboard integration.
 
- 12. Milestone 2 Deliverables
+📦12. Milestone 2 Deliverables
 - EDA and KPI analysis notebooks
 - Business-question-specific findings
 - KPI summary tables
@@ -242,7 +242,7 @@ Different members produced separate analytical outputs.
 - README documentation
 - Final integrated dashboard
 
- 13. Future Work
+ 🔮13. Future Work
 - Complete dashboard integration.
 - Improve interactive visualizations.
 - Add advanced operational indicators.
@@ -250,7 +250,7 @@ Different members produced separate analytical outputs.
 - Finalize documentation and presentation.
 - Integrate all business-question outputs into the final dashboard.
 
- 14. Conclusion
+ 🎯14. Conclusion
 Milestone 2 transforms the cleaned healthcare datasets from Milestone 1 into actionable operational intelligence.
 Through EDA, KPI generation, trend analysis, visualization, and dashboard integration, the project provides insights into patient flow, service demand, workload, operational bottlenecks, and surgery workload.
 The completed outputs will serve as the foundation for the final Medical Operations Intelligence Dashboard.
