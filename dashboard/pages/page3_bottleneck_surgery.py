@@ -1,5 +1,5 @@
 """
-Dashboard Page 3 — Bottlenecks & Capacity Strain (Sarthak) + Surgery Workload (Aarthi — pending)
+Dashboard Page 3 — Bottlenecks & Capacity Strain (Sarthak) + Surgery Workload (Divya)
 """
 
 import dash
@@ -16,18 +16,9 @@ layout = html.Div(
         ),
         html.Hr(),
         html.H3("Surgery Workload"),
-        html.Div(
-            "Pending — Aarthi's visualization is in progress and expected tonight. "
-            "Once received, drop the exported HTML into dashboard/assets/reports/ "
-            "as 'surgery_workload.html' and replace this placeholder with the same "
-            "Iframe pattern used above.",
-            style={
-                "padding": "20px",
-                "background": "#fff8e1",
-                "border": "1px dashed #d4a017",
-                "borderRadius": "8px",
-                "color": "#665200",
-            },
+        html.Iframe(
+            src="/assets/reports/surgery_workload.html",
+            style={"width": "100%", "height": "2400px", "border": "none"},
         ),
     ],
     style={"padding": "24px"},

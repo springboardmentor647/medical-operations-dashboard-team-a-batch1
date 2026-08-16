@@ -20,7 +20,7 @@ dashboard/
 │       ├── discharge_flow.html         # Keerthi — Patient Discharge & Flow
 │       ├── treatment_demand.html       # Sarthak — Treatment & Service Demand
 │       ├── bottleneck_capacity.html    # Sarthak — Bottlenecks & Capacity Strain
-│       └── surgery_workload.html       # Aarthi — Surgery Workload (pending)
+│       └── surgery_workload.html       # Divya — Surgery Workload
 └── pages/
     ├── page1_admissions_component.py   # Nafisa — Admission Trends (live Dash component)
     ├── page1_patient_flow.py           # Page 1: Admissions + Dept Load
@@ -79,7 +79,7 @@ http://localhost:8050
 | Page 2 | Patient Discharge & Flow | Sowmitha → Keerthi | Embedded static Plotly export |
 | Page 2 | Treatment & Service Demand | Abhinay → Sarthak | Embedded static Plotly export |
 | Page 3 | Bottlenecks & Capacity Strain | Sarthak → Sarthak | Embedded static Plotly export |
-| Page 3 | Surgery Workload | Deepika → Aarthi | ⏳ Pending |
+| Page 3 | Surgery Workload | Deepika → Divya (covered for Aarthi) | Embedded static Plotly export |
 
 ---
 
@@ -105,11 +105,11 @@ Only the Admission Trends chart (Nafisa/Member 2) is a genuinely live, interacti
 - [x] Page 2 — Patient Discharge & Flow
 - [x] Page 2 — Treatment & Service Demand
 - [x] Page 3 — Bottlenecks & Capacity Strain
-- [ ] Page 3 — Surgery Workload *(pending Aarthi — placeholder currently shown, to be swapped in once received)*
+- [x] Page 3 — Surgery Workload *(completed by Divya, covering for Aarthi)*
 
 ---
 
 ## 🐞 Known Issues / Notes for Reviewers
 
 - `Sarthak`'s original `Treatment_and_service_demand_visualization.ipynb` notebook file was found empty (0 bytes) in the submitted work — his final exported dashboard HTML is intact and used here, but the source notebook behind it may need to be recovered/rebuilt separately.
-- Surgery Workload (Page 3) currently shows a placeholder notice. Once Aarthi's file is available, it will be added via the same iframe pattern used for the other static dashboards — no structural changes needed.
+- Surgery Workload (Page 3) was originally assigned to Aarthi; Divya completed this analysis and visualization on her behalf. The dashboard's KPI numbers (Total Surgeries: 3,505; Success Rate: 33.07%; Avg Duration: 195.31 min) come directly from her `Surgery_Workload.xlsx` output.
