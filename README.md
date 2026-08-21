@@ -124,6 +124,17 @@ Each business question is handled by one Type A and one Type B team member.
 |Dashboard Integration|Nafisa||
 |Documentation|Sowmitha||
 |Type A members perform EDA and KPI analysis, while Type B members convert the findings into visualizations and dashboard components.|||
+| Business Question | Type A – Analysis | Type B – Visualization |
+|---|---|---|
+| Admission Trends | Divya | Nafisa |
+| Department-wise Patient Load | Srivalli | Tanvi |
+| Patient Discharge & Flow | Sowmitha | Keerthi  |
+| Treatment & Service Demand | Abhinay | Sarthak |
+| Bottlenecks & Capacity Strain | Sarthak | Sarthak |
+| Surgery Workload | Deepika | Divya |
+| Dashboard Integration |  Nafisa  |
+| Documentation | Sowmitha |
+Type A members perform EDA and KPI analysis, while Type B members convert the findings into visualizations and dashboard components.
 
 📂5. Datasets Used
 Admission Trends
