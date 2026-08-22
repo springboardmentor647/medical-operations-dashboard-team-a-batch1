@@ -294,7 +294,7 @@ Different members produced separate analytical outputs.
 * \### Status
 * \- Page 1: Admission Trends + Department-wise Patient Load ✅
 * \- Page 2: Patient Discharge \& Flow + Treatment \& Service Demand ✅
-* \- Page 3: Bottlenecks \& Capacity Strain ✅, Surgery Workload ✅
+* \- Page 3: Bottlenecks \& Capacity Strain ✅, Surgery Workload pending
 
 🔮13. Future Work
 
