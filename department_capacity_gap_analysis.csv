@@ -1,0 +1,21 @@
+department_id,department_name,Total_Beds,Admissions,Occupied_Bed_Days,Available_Bed_Days,Average_LOS_Days,Actual_Utilization_Pct,Benchmark_Utilization_Pct,Utilization_Gap_pp,Absolute_Gap_pp,Gap_Status,Gap_Rank,Department_ID,Doctor_Count,Beds_Per_Doctor
+D008,General Surgery,40,175,937,12400,5.35,7.56,75,-67.44,67.44,Significant Underutilization,1.0,D008,18,2.2222222222222223
+D017,ICU,50,253,1432,15500,5.66,9.24,75,-65.76,65.76,Significant Underutilization,2.0,D017,25,2.0
+D011,Gynecology,30,159,863,9300,5.43,9.28,75,-65.72,65.72,Significant Underutilization,3.0,D011,17,1.7647058823529411
+D015,Emergency,60,335,1880,18600,5.61,10.11,75,-64.89,64.89,Significant Underutilization,4.0,D015,34,1.7647058823529411
+D001,Cardiology,40,233,1256,12400,5.39,10.13,75,-64.87,64.87,Significant Underutilization,5.0,D001,23,1.7391304347826086
+D004,Pediatrics,45,277,1535,13950,5.54,11.0,75,-64.0,64.0,Significant Underutilization,6.0,D004,27,1.6666666666666667
+D002,Neurology,30,200,1087,9300,5.44,11.69,75,-63.31,63.31,Significant Underutilization,7.0,D002,20,1.5
+D009,Urology,20,169,941,6200,5.57,15.18,75,-59.82,59.82,Significant Underutilization,8.0,D009,17,1.1764705882352942
+D003,Orthopedics,35,320,1760,10850,5.5,16.22,75,-58.78,58.78,Significant Underutilization,9.0,D003,30,1.1666666666666667
+D005,Oncology,35,331,1787,10850,5.4,16.47,75,-58.53,58.53,Significant Underutilization,10.0,D005,33,1.0606060606060606
+D010,Nephrology,25,218,1285,7750,5.89,16.58,75,-58.42,58.42,Significant Underutilization,11.0,D010,22,1.1363636363636365
+D014,Gastroenterology,25,260,1387,7750,5.33,17.9,75,-57.1,57.1,Significant Underutilization,12.0,D014,27,0.9259259259259259
+D012,Psychiatry,25,253,1430,7750,5.65,18.45,75,-56.55,56.55,Significant Underutilization,13.0,D012,27,0.9259259259259259
+D013,Pulmonology,25,317,1652,7750,5.21,21.32,75,-53.68,53.68,Significant Underutilization,14.0,D013,29,0.8620689655172413
+D006,ENT,15,215,1186,4650,5.52,25.51,75,-49.49,49.49,Significant Underutilization,15.0,D006,21,0.7142857142857143
+D007,Dermatology,10,179,1001,3100,5.59,32.29,75,-42.71,42.71,Significant Underutilization,16.0,D007,20,0.5
+D019,Endocrinology,18,319,1808,5580,5.67,32.4,75,-42.6,42.6,Significant Underutilization,17.0,D019,32,0.5625
+D018,Ophthalmology,12,268,1461,3720,5.45,39.27,75,-35.73,35.73,Significant Underutilization,18.0,D018,27,0.4444444444444444
+D020,Dental,10,253,1407,3100,5.56,45.39,75,-29.61,29.61,Significant Underutilization,19.0,D020,24,0.4166666666666667
+D016,Radiology,10,266,1482,3100,5.57,47.81,75,-27.19,27.19,Significant Underutilization,20.0,D016,27,0.37037037037037035
