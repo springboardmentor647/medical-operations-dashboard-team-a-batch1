@@ -134,7 +134,7 @@ The **Development of a Healthcare Operations Intelligence Dashboard with Decisio
                                                                                                         
                                                                                                          7. ### 1. Milestone 3 Overview & Objective
                                                                                                          8. **Weeks 5-6 | Team of 10**
-                                                                                                        
+                                                                                                      
                                                                                                          9. Milestone 3 focuses on **Resource Utilization & Capacity Intelligence** - developing healthcare resource intelligence dashboards and capacity monitoring capabilities covering bed utilization, workforce efficiency, department-wise resource distribution, and benchmark/capacity gap analysis.
                                                                                                         
                                                                                                          10. ---
