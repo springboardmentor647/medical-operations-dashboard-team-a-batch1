@@ -425,3 +425,21 @@ Open http://localhost:8050 in your web browser to interact with all 5 dashboard 
 * **Abhi** (abhi-resource-utilization-analysis-m3) -> Resource Utilization Analysis
 * **Divya Kumari** (divya-benchmark-capacity-analysis-m3) -> Benchmark & Capacity Gap Analysis
 * **Keerthi Machanooru** -> Merge all PRs into main, maintain directory structure integrity, and update README.
+
+---
+
+### 9. Future Work
+* Real-time Data Ingestion: Connect the dashboard to live Electronic Health Record (EHR) pipelines for continuous capacity tracking.
+* Predictive Bed Forecasting: Implement machine learning models to forecast patient admissions and bed demand 7 to 14 days in advance.
+* Automated Staffing Recommendations: Build dynamic nurse-to-patient and doctor scheduling optimization algorithms based on predicted admission surges.
+* Early Warning Alert System: Configure automated email and SMS threshold alerts whenever department bed occupancy exceeds 85%.
+* Cloud Deployment: Containerize the full 5-page Dash application using Docker and deploy to cloud services (AWS / Azure) for hospital-wide access.
+
+---
+
+### 10. Conclusion
+Milestone 3 successfully delivers the Resource Utilization & Capacity Intelligence Module, completing the analytical foundation of the Healthcare Operations Intelligence Dashboard. By integrating hospital bed capacity benchmarks, doctor staffing records, and admissions data across departments, this module enables operational decision-makers to:
+* Identify departments operating near or above critical capacity thresholds.
+* Highlight staffing and workforce imbalances across specialized hospital departments.
+* Measure and close operational capacity gaps against established healthcare benchmarks.
+* Provide an interactive, unified 5-page decision analytics platform supporting data-driven clinical and operational management.
