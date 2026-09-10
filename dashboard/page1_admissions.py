@@ -73,7 +73,7 @@ def kpi_card(label: str, value) -> html.Div:
     return html.Div(
         [
             html.Div(label, style={"fontSize": "13px", "color": "#666"}),
-            html.Div(str(value), style={"fontSize": "26px", "fontWeight": "700"}),
+            html.Div(str(value), style={"fontSize": "26px", "fontWeight": "700","color": "#222222"}),
         ],
         style={
             "padding": "16px",
