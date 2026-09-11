@@ -576,8 +576,6 @@ As of September 11, 2026, all Milestone pull requests have been reviewed, confli
 - **Rushikesh:** (milestone4-deployment-rushikesh / PR #39) -> Deployment [Merged]
 - **Keerthi Machanooru:** (visualize-service-coverage-map-filters / PR #40) -> Service Coverage Map Visualization + Filters [Merged]
 - **Tanvi Ajit Bhosale:** (Tanvi / PR #41) -> Patient Distribution Map, follow-up fix [Merged]
-- **Sowmitha:** (sowmitha-milestone4-patient-distribution-analysis) -> Patient Distribution Data Analysis [Pending review]
-- **Deepika J:** (deepika-milestone4-executive-dashboard-design) -> Executive Dashboard Design [Pending review]
 - **Divya Kumari:** Reviewed and resolved merge conflicts across all branches, merged PRs #34-#41 into main, fixed the milestone4/ directory structure (fix milestone4 directory commit), added Dash server variables/attributes for deployment support, and maintained the README.
 
 ### 9. Future Work
