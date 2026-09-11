@@ -59,13 +59,30 @@ def make_figure(filtered_df: pd.DataFrame) -> go.Figure:
 def kpi_card(label: str, value) -> html.Div:
     return html.Div(
         [
-            html.Div(label, style={"fontSize": "13px", "color": "#666"}),
-            html.Div(str(value), style={"fontSize": "26px", "fontWeight": "700"}),
+            html.Div(
+                label,
+                style={
+                    "fontSize": "13px",
+                    "color": "#666666",
+                },
+            ),
+            html.Div(
+                str(value),
+                style={
+                    "fontSize": "26px",
+                    "fontWeight": "700",
+                    "color": "#000000",
+                    "backgroundColor": "#ffffff",
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                },
+            ),
         ],
         style={
             "padding": "16px",
             "borderRadius": "10px",
-            "background": "#f5f5f7",
+            "backgroundColor": "#f5f5f7",
             "textAlign": "center",
             "minWidth": "150px",
         },
@@ -89,14 +106,23 @@ kpi_row = html.Div(
 )
 
 range_slider = dcc.RangeSlider(
-    id="admission-month-range",  # namespaced ID — unique across the whole app
+    id="admission-month-range",
+    className="admission-range-slider",
     min=0,
     max=len(monthly_admissions) - 1,
     step=1,
     value=[0, len(monthly_admissions) - 1],
-    marks={i: d.strftime("%b'%y") for i, d in enumerate(monthly_admissions["Admission_Month_Year"])},
+    marks={
+        i: {
+            "label": d.strftime("%b'%y"),
+            "style": {
+                "color": "#ffffff",
+                "fontSize": "12px",
+            },
+        }
+        for i, d in enumerate(monthly_admissions["Admission_Month_Year"])
+    },
 )
-
 # ---------------------------------------------------------------------------
 # Exported layout piece — imported and placed into pages/page1_patient_flow.py
 # ---------------------------------------------------------------------------
