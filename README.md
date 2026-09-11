@@ -564,7 +564,7 @@ python dashboard/app.py
 
 Open `http://localhost:8050` in your web browser to interact with all dashboard pages, including the new Patient Distribution and Service Coverage maps.
 
-### 8. Milestone PR & Merge Workflow (Managed by @Divya Kumari)
+### 8. Milestone 4 PR & Merge Workflow (Managed by @Divya Kumari)
 
 As of September 11, 2026, all Milestone pull requests have been reviewed, conflicts resolved, and merged into main by Divya Kumari:
 
