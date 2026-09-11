@@ -529,30 +529,7 @@ The team operates using the same two-role model as Milestones 2-3 (**Type A:** D
 - Update GitHub README with Milestone 4 structure, run instructions, and data-gap notes (geocoding)
 - Maintain repository folder hierarchy, review open pull requests, resolve merge conflicts, and merge all outstanding branches into main
 
-### 6. Repository `milestone4/` Structure
-
-```
-milestone4/
-|-- README.md
-|-- data/
-|   |-- processed/
-|   `-- raw/
-|       |-- facility_geocodes.csv
-|       `-- GEOCODE_README.md
-|-- notebook/
-|   |-- Patient_Distribution_Mapping_EDA.ipynb
-|   |-- Patient_Distribution_Mapping_Visualization.ipynb
-|   |-- Healthcare_Service_Coverage_Analysis.ipynb
-|   `-- Healthcare_Service_Coverage_Visualization.ipynb
-|-- report/
-|   |-- patient_distribution_map.html
-|   |-- service_coverage_map.html
-|   `-- executive_dashboard.html
-`-- outputs/
-    `-- .gitkeep
-```
-
-### 7. How to Run the Complete Dashboard
+### 6. How to Run the Complete Dashboard
 
 ```bash
 git clone https://github.com/springboardmentor647/medical-operations-dashboard-team-a-batch1.git
@@ -564,7 +541,7 @@ python dashboard/app.py
 
 Open `http://localhost:8050` in your web browser to interact with all dashboard pages, including the new Patient Distribution and Service Coverage maps.
 
-### 8. Milestone 4 PR & Merge Workflow (Managed by @Divya Kumari)
+### 7. Milestone 4 PR & Merge Workflow (Managed by @Divya Kumari)
 
 As of September 11, 2026, all Milestone pull requests have been reviewed, conflicts resolved, and merged into main by Divya Kumari:
 
@@ -578,7 +555,7 @@ As of September 11, 2026, all Milestone pull requests have been reviewed, confli
 - **Tanvi Ajit Bhosale:** (Tanvi / PR #41) -> Patient Distribution Map, follow-up fix [Merged]
 - **Divya Kumari:** Reviewed and resolved merge conflicts across all branches, merged PRs #34-#41 into main, fixed the milestone4/ directory structure (fix milestone4 directory commit), added Dash server variables/attributes for deployment support, and maintained the README.
 
-### 9. Future Work
+### 8. Future Work
 
 - **Patient-level Geocoding:** Replace department-level benchmark coordinates with actual patient address geocoding once privacy-compliant location data is available.
 - **Real-time Data Ingestion:** Connect the dashboard to live Electronic Health Record (EHR) pipelines for continuous geographic and capacity tracking.
@@ -586,7 +563,7 @@ As of September 11, 2026, all Milestone pull requests have been reviewed, confli
 - **Role-based Access Control:** Add authentication so executives, department heads, and analysts see tailored dashboard views.
 - **Cloud Deployment Hardening:** Move the deployed platform to a managed cloud service (AWS / Azure) with CI/CD and monitoring.
 
-### 10. Conclusion
+### 9. Conclusion
 
 Milestone 4 delivers the Geographic Healthcare Intelligence & Executive Dashboard module, completing the full Healthcare Operations Intelligence Dashboard. By mapping patient distribution and healthcare service coverage against facility geocode benchmarks, and integrating every prior module (Data Integration, Patient Flow, Resource Utilization) into a single deployed platform, this milestone enables hospital management to:
 
