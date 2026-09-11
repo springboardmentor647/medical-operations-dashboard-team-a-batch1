@@ -443,3 +443,156 @@ Milestone 3 successfully delivers the Resource Utilization & Capacity Intelligen
 * Highlight staffing and workforce imbalances across specialized hospital departments.
 * Measure and close operational capacity gaps against established healthcare benchmarks.
 * Provide an interactive, unified 5-page decision analytics platform supporting data-driven clinical and operational management.
+
+## Milestone 4 - Geographic Healthcare Intelligence & Executive Dashboard
+
+### 1. Milestone 4 Overview & Objective
+
+**Weeks 7-8 | Team of 10**
+
+Milestone 4 focuses on Geographic Healthcare Intelligence & the Executive Dashboard - developing patient distribution mapping and healthcare service coverage mapping, integrating all prior modules (Data Integration, Patient Flow, Resource Utilization), and deploying the complete healthcare operations intelligence platform.
+
+### 2. Data Notes - Geolocation Data Gap
+
+**Facility Geocode Benchmark (`data/raw/facility_geocodes.csv`):**
+
+- **Contents:** `department_id, department_name, latitude, longitude` (one row per facility/department)
+- **Purpose:** Milestone 1's cleaned datasets do not include patient or facility latitude/longitude data. This benchmark geocoding lookup file makes the geographic visualizations analyzable.
+- **Usage:** Joined against `admissions_clean.csv` on `department_id` to plot patient volume by location for Patient Distribution Mapping (BQ 1).
+
+> **Important:** If patient-level addresses are not available, department/facility-level coordinates are an acceptable benchmark for mapping purposes - not measured patient-location data. This assumption is documented in `data/raw/GEOCODE_README.md`, the same way the bed- and staff-capacity gaps were documented in Milestone 3.
+
+This file was pushed to the repo before Type B work began - **pull the latest main before starting.**
+
+### 3. Team Assignments & Role Model (Milestone 4)
+
+The team operates using the same two-role model as Milestones 2-3 (**Type A:** Data Analysis / Geo-EDA Prep and **Type B:** Visualization & Dashboard Build), plus three dedicated support roles - Dashboard Integration Lead, Deployment Lead, and Documentation & GitHub Lead:
+
+| # | Team Member | Type | Task | Business Question / Area |
+|---|---|---|---|---|
+| 1 | Sowmitha A| Type A | Prepare & Analyze Patient Distribution Data | Patient Distribution Mapping |
+| 2 | Tanvi Ajit Bhosale | Type B | Visualize Patient Distribution Map | Patient Distribution Mapping |
+| 3 | Sirivalli Reddyvari | Type A | Analyze Healthcare Service Coverage | Healthcare Service Coverage Mapping |
+| 4 | Keerthi Machanooru | Type B | Visualize Service Coverage Map + Filters | Healthcare Service Coverage Mapping |
+| 5 | Deepika J | Type A | Design Executive Dashboard Layout | Executive Dashboard Design |
+| 6 | Nafisa | Type B | Integrate Module 1 (Data Integration) Outputs | Centralized Dashboard Integration |
+| 7 | Abhi | Type B | Integrate Module 2 & 3 (Patient Flow, Resource Utilization) Outputs | Centralized Dashboard Integration |
+| 8 | Sarthak Jejurkar | Type B | Dashboard Integration Lead | All pages + QA/Testing |
+| 9 | Rushikesh | Lead | Deployment Lead | Platform hosting/publishing |
+| 10 | Divya Kumari | Lead | Documentation & GitHub Lead | README, PR merges, conflict resolution |
+
+### 4. Business Question Pairings & Datasets
+
+| Business Question | Type A (Analyst) | Type B (Visualizer) | Datasets Needed |
+|---|---|---|---|
+| Patient Distribution Mapping | Sowmitha | Tanu | admissions_clean.csv, departments_clean.csv, facility_geocodes.csv |
+| Healthcare Service Coverage Mapping | Sirivalli Reddyvari | Keerthi Machanooru | departments_clean.csv, facility_geocodes.csv, doctors_preprocessed.csv |
+| Executive Dashboard Design | Deepika J | - | Outputs from Milestones 1-3 (summary KPIs) |
+| Module 1 Integration | - | Nafisa | Milestone 1 Data Integration outputs |
+| Module 2 & 3 Integration | - | Abhi | Milestone 2 (Patient Flow) + Milestone 3 (Resource Utilization) outputs |
+| Dashboard Integration & QA | - | Sarthak Jejurkar | All of the above (assembled) |
+| Deployment | - | Rushikesh | Final assembled dashboard |
+| Documentation & Repo Maintenance | - | Divya Kumari | All of the above (assembled) |
+
+### 5. Detailed Task Breakdown
+
+**1. Patient Distribution Mapping (Sowmitha A -> Tanvi Ajit Bhosale )**
+- Join `facility_geocodes.csv` against `admissions_clean.csv` on `department_id`
+- Calculate patient volume/density by location and by department
+- Identify geographic clusters of high patient origin
+- Visualization: patient distribution map (Folium/GeoPandas heatmap or density map)
+
+**2. Healthcare Service Coverage Mapping (Sirivalli Reddyvari -> Keerthi Machanooru)**
+- Determine facility catchment areas / service radius per department
+- Identify areas that are over- or under-served relative to facility locations
+- Visualization: service coverage map with interactive filters (by department, time period, service type)
+
+**3. Executive Dashboard Design (Deepika J)**
+- Design the executive dashboard layout/wireframe (Power BI or Plotly/Dash executive view)
+- Define the KPI card format, color scheme, and navigation structure for the final platform
+
+**4. Module Integration (Nafisa, Abhi)**
+- Nafisa: Integrate Module 1 (Data Integration) outputs into the centralized dashboard
+- Abhi: Integrate Module 2 (Patient Flow) and Module 3 (Resource Utilization) visualizations into the centralized dashboard
+
+**5. Dashboard Integration & QA (Sarthak Jejurkar)**
+- Integrate the geographic intelligence maps (from Tanu and Keerthi Machanooru) into the unified dashboard interface
+- Assemble all Type B outputs into unified dashboard pages, ensuring consistent styling across pages
+- Conduct end-to-end testing, performance/QA checks, and bug fixes across the integrated platform
+
+**6. Deployment (Rushikesh)**
+- Take the fully integrated dashboard from Sarthak Jejurkar and deploy/publish the complete healthcare operations intelligence platform
+- Verify the live/deployed version matches the tested build - no broken links, missing assets, or config issues
+- Hand off deployment details (URL, hosting notes) to the Documentation Lead
+
+**7. Documentation & GitHub Management (Divya Kumari)**
+- Update GitHub README with Milestone 4 structure, run instructions, and data-gap notes (geocoding)
+- Maintain repository folder hierarchy, review open pull requests, resolve merge conflicts, and merge all outstanding branches into main
+
+### 6. Repository `milestone4/` Structure
+
+```
+milestone4/
+|-- README.md
+|-- data/
+|   |-- processed/
+|   `-- raw/
+|       |-- facility_geocodes.csv
+|       `-- GEOCODE_README.md
+|-- notebook/
+|   |-- Patient_Distribution_Mapping_EDA.ipynb
+|   |-- Patient_Distribution_Mapping_Visualization.ipynb
+|   |-- Healthcare_Service_Coverage_Analysis.ipynb
+|   `-- Healthcare_Service_Coverage_Visualization.ipynb
+|-- report/
+|   |-- patient_distribution_map.html
+|   |-- service_coverage_map.html
+|   `-- executive_dashboard.html
+`-- outputs/
+    `-- .gitkeep
+```
+
+### 7. How to Run the Complete Dashboard
+
+```bash
+git clone https://github.com/springboardmentor647/medical-operations-dashboard-team-a-batch1.git
+cd medical-operations-dashboard-team-a-batch1
+git checkout main && git pull origin main
+pip install dash plotly pandas numpy folium geopandas
+python dashboard/app.py
+```
+
+Open `http://localhost:8050` in your web browser to interact with all dashboard pages, including the new Patient Distribution and Service Coverage maps.
+
+### 8. Milestone PR & Merge Workflow (Managed by @Divya Kumari)
+
+As of September 11, 2026, all Milestone pull requests have been reviewed, conflicts resolved, and merged into main by Divya Kumari:
+
+- **Sirivalli Reddyvari:** (Sirivalli-Milestone-4 / PR #34) -> Healthcare Service Coverage Analysis [Merged]
+- **Nafisa:** (nafisa-milestone4-module1-integration / PR #35) -> Module 1 (Data Integration) Dashboard Integration [Merged]
+- **Tanvi Ajit Bhosale:** (Tanvii-08--milestone4-Patient-Distribution-Map / PR #36) -> Patient Distribution Map Visualization [Merged]
+- **Sarthak Jejurkar:** (milestone4-dashboard-integration-sarthak-jejurkar / PR #37) -> Dashboard Integration Lead (All Pages + QA) [Merged]
+- **Abhi:** (abhimilestone_4 / PR #38) -> Module 2 & 3 Dashboard Integration [Merged]
+- **Rushikesh:** (milestone4-deployment-rushikesh / PR #39) -> Deployment [Merged]
+- **Keerthi Machanooru:** (visualize-service-coverage-map-filters / PR #40) -> Service Coverage Map Visualization + Filters [Merged]
+- **Tanvi Ajit Bhosale:** (Tanvi / PR #41) -> Patient Distribution Map, follow-up fix [Merged]
+- **Sowmitha:** (sowmitha-milestone4-patient-distribution-analysis) -> Patient Distribution Data Analysis [Pending review]
+- **Deepika J:** (deepika-milestone4-executive-dashboard-design) -> Executive Dashboard Design [Pending review]
+- **Divya Kumari:** Reviewed and resolved merge conflicts across all branches, merged PRs #34-#41 into main, fixed the milestone4/ directory structure (fix milestone4 directory commit), added Dash server variables/attributes for deployment support, and maintained the README.
+
+### 9. Future Work
+
+- **Patient-level Geocoding:** Replace department-level benchmark coordinates with actual patient address geocoding once privacy-compliant location data is available.
+- **Real-time Data Ingestion:** Connect the dashboard to live Electronic Health Record (EHR) pipelines for continuous geographic and capacity tracking.
+- **Predictive Coverage Modeling:** Use predictive analytics to forecast underserved areas as patient demand shifts over time.
+- **Role-based Access Control:** Add authentication so executives, department heads, and analysts see tailored dashboard views.
+- **Cloud Deployment Hardening:** Move the deployed platform to a managed cloud service (AWS / Azure) with CI/CD and monitoring.
+
+### 10. Conclusion
+
+Milestone 4 delivers the Geographic Healthcare Intelligence & Executive Dashboard module, completing the full Healthcare Operations Intelligence Dashboard. By mapping patient distribution and healthcare service coverage against facility geocode benchmarks, and integrating every prior module (Data Integration, Patient Flow, Resource Utilization) into a single deployed platform, this milestone enables hospital management to:
+
+- Visualize where patients are coming from and identify high-density geographic clusters.
+- Identify over- and under-served areas relative to existing facility locations.
+- Navigate a single, unified executive dashboard covering data integration, patient flow, resource utilization, and geographic coverage.
+- Access the fully deployed, end-to-end healthcare operations intelligence platform.
